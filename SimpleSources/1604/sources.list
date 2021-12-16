@@ -1,7 +1,19 @@
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial universe
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates universe
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security universe
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial universe
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates universe
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security universe
+
+#for huawei green/yellow area
+deb http://mirrors.tools.huawei.com/ubuntu/ xenial main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ xenial-backports main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ xenial-proposed main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ xenial-security main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ xenial-updates main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ xenial main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ xenial-backports main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ xenial-proposed main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ xenial-security main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ xenial-updates main multiverse restricted universe
