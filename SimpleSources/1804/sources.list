@@ -1,7 +1,19 @@
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic universe
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates universe
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted multiverse
-deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security universe
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic universe
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates universe
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted multiverse
+#deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security universe
+
+##for huawei green/red area
+deb http://mirrors.tools.huawei.com/ubuntu/ bionic main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ bionic-backports main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ bionic-proposed main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ bionic-security main multiverse restricted universe
+deb http://mirrors.tools.huawei.com/ubuntu/ bionic-updates main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ bionic main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ bionic-backports main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ bionic-proposed main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ bionic-security main multiverse restricted universe
+deb-src http://mirrors.tools.huawei.com/ubuntu/ bionic-updates main multiverse restricted universe
